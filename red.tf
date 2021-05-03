@@ -24,7 +24,7 @@ resource "aws_subnet" "vpc_subnet_jo_225263" {
   }
 }
 
-#----ROUTE TEBLE----#
+#----ROUTE TABLE----#
 resource "aws_default_route_table" "route_table_jo_225263" {
   default_route_table_id = aws_vpc.vpc_jo_225263.default_route_table_id
 
